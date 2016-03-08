@@ -1,0 +1,11 @@
+<md-toolbar class="md-theme-light">
+  <h1 class="md-toolbar-tools">Menu</h1>
+</md-toolbar>
+<md-content layout-padding layout="column">
+    <md-button ui-sref="home" class="md-primary"><md-icon md-font-library="material-icons">home</md-icon> Home</md-button>
+    <md-button ng-click="vm.openNewQuestionDialog()" class="md-primary"><md-icon md-font-library="material-icons">add</md-icon> New question</md-button>
+    <md-button ng-click="vm.showConfirm()" class="md-warn"><md-icon md-font-library="material-icons">delete</md-icon> Reset DB</md-button>
+    <md-button ng-click="vm.close()">
+      <md-icon md-font-library="material-icons">close</md-icon> Close menu
+    </md-button>
+</md-content>

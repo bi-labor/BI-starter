@@ -1,0 +1,19 @@
+<md-card>
+  <md-card-title>
+    <md-card-title-text>
+      <!-- TODO: Add question's title and created date -->
+    </md-card-title-text>
+    <md-card-title-media ng-if="vm.question.imageUrl" >
+      <!-- TODO: Add question's image -->
+    </md-card-title-media>
+  </md-card-title>
+  <md-card-actions layout="row" layout-align="end center">
+    <md-button class="md-warn" ng-click="vm.showConfirm()">
+      <md-icon md-font-library="material-icons" >delete</md-icon>
+      Delete
+    </md-button>
+  </md-card-actions>
+  <md-card-content>
+    <!-- TODO show options as radio buttons -->
+  </md-card-content>
+</md-card>

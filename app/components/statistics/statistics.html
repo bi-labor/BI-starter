@@ -1,0 +1,24 @@
+<md-content class="md-padding" layout="column" ng-if="vm.question" id="statistics">
+  <h2>{{ vm.question.title }} </h2>
+
+  <h3>{{ vm.votes.length }} votes</h3>
+
+  <div layout-xs="column" layout-gt-xs="row">
+
+    <div flex-xs flex-gt-xs="50" layout="column" ng-if="vm.pieChartData">
+      <md-card>
+        <md-card-content>
+          <div id="container" highcharts-pie pie-chart-data="vm.pieChartData"></div>
+        </md-card-content>
+      </md-card>
+    </div>
+    <div flex-xs flex-gt-xs="50" layout="column" ng-if="vm.columnChartData">
+      <md-card>
+        <md-card-content>
+          <div id="container-column" highcharts-column column-chart-data="vm.columnChartData"
+               ng-if="vm.votesMap"></div>
+        </md-card-content>
+      </md-card>
+    </div>
+  </div>
+</md-content>

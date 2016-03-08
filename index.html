@@ -1,0 +1,62 @@
+<!doctype html>
+<html ng-app="angularVoteApp">
+<head>
+    <meta charset="utf-8">
+    <title>angularVoteApp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/vendor-ba43dd1a3f.css">
+    <link rel="stylesheet" href="styles/app-a771c5bc9a.css">
+</head>
+<body layout="column"><!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<md-toolbar>
+    <div class="md-toolbar-tools"><a ui-sref="home"><h2><span>Vote Application</span></h2></a> <span flex=""></span>
+    </div>
+</md-toolbar>
+<side-nav-toggle></side-nav-toggle>
+<md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+    <side-nav></side-nav>
+</md-sidenav>
+<md-content ui-view=""></md-content>
+<script src="scripts/vendor-49cef0c78d.js"></script>
+
+
+<script src="app/index.module.js"></script>
+<script src="app/index.config.js"></script>
+<script src="app/index.route.js"></script>
+<script src="app/index.constants.js"></script>
+<script src="app/index.run.js"></script>
+
+<!-- Firebase component -->
+<script src="app/components/firebase/firebase.data.service.js"></script>
+
+<!-- Notification component -->
+<script src="app/components/notification/notification.service.js"></script>
+
+<!-- Option component -->
+<script src="app/components/option/option.service.js"></script>
+
+<!-- Question component -->
+<script src="app/components/question/list/question.list.item.directive.js"></script>
+<script src="app/components/question/new/new.question.dialog.controller.js"></script>
+<script src="app/components/question/date.filter.js"></script>
+<script src="app/components/question/question.service.js"></script>
+<script src="app/components/question/questions.controller.js"></script>
+
+<!-- Sidenavigation component -->
+<script src="app/components/side-nav/sidenav.directive.js"></script>
+<script src="app/components/side-nav/sidenav.toggle.directive.js"></script>
+
+<!-- Statistics component -->
+<script src="app/components/statistics/highcharts.column.directive.js"></script>
+<script src="app/components/statistics/highcharts.pie.directive.js"></script>
+<script src="app/components/statistics/statistics.controller.js"></script>
+
+<!-- Vote component -->
+<script src="app/components/vote/vote.service.js"></script>
+
+</body>
+</html>
