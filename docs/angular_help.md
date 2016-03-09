@@ -19,7 +19,7 @@ JavaScript Single Page Application (SPA) keretrendszer, segítségével:
 
 Egyszerű AngularJS példa:
 
-![AngularJS példa](docs/images/img8.png)
+![AngularJS példa](images/img8.png)
 
 ### AngularJS főbb komponensei
 
