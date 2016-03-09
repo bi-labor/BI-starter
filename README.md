@@ -160,7 +160,7 @@ A kontrollerben írjuk meg ezt a függvényt:
 
 ```javascript
 vm.create = function (){
- QuestionService.addQuestion(vm.question).then(function () {
+ QuestionService.addQuestion(vm.question).then(function (question) {
       NotificationService.showNotification("Question created successfully.");
    vm.hide();
  });
