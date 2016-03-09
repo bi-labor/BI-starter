@@ -4,6 +4,7 @@
 ### Tartalom
 * [Bevezetés](#bevezetés)
   * [Célkitűzés](#célkitűzés)
+  * [AngularJS](#angularjs)
   * [Előfeltételek](#előfeltételek)
   * [Technológiák](#technológiák)
   * [Röviden az alkalmazásról](#röviden-az-alkalmazásról)
