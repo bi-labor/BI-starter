@@ -121,7 +121,7 @@ Ebből az első hármat kell kirakni a dialógus template-re (app/components/que
 
 ```html
 <md-dialog-content>
-       <div>
+       <div class="md-dialog-content">
            <md-input-container class="md-block" flex-gt-sm>
                <label>Title</label>
                <input ng-model="vm.question.title" required>
