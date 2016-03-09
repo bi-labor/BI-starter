@@ -40,13 +40,10 @@ Böngészőben: http://localhost:8080
 ![Alkalmazás kezdeti állapota](docs/images/img1.png)
 
 #### Technológiák
-[AngularJS](https://docs.angularjs.org/guide)
-
-[Angular Material](https://material.angularjs.org/latest)
-
-[Firebase](https://www.firebase.com/docs)
-
-[Highcharts](http://www.highcharts.com/docs)
+* [AngularJS](https://docs.angularjs.org/guide)
+* [Angular Material](https://material.angularjs.org/latest)
+* [Firebase](https://www.firebase.com/docs)
+* [Highcharts](http://www.highcharts.com/docs)
 
 #### Röviden az alkalmazásról
 Az elkészült alkalmazásban a felhasználó tud: 
