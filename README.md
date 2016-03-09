@@ -41,8 +41,11 @@ Böngészőben: http://localhost:8080
 
 #### Technológiák
 [AngularJS](https://docs.angularjs.org/guide)
+
 [Angular Material](https://material.angularjs.org/latest)
+
 [Firebase](https://www.firebase.com/docs)
+
 [Highcharts](http://www.highcharts.com/docs)
 
 #### Röviden az alkalmazásról
