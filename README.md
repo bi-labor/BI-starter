@@ -21,6 +21,9 @@
 #### Célkitűzés
 A labor során egy egyszerű szavazó alkalmazást fogunk elkészíteni. Ennek alapjai már megtalálhatóak a kiinduló forrásban, ezt fogjuk kiegészíteni további funkciókkal. 
 
+#### AngularJS
+[AngularJS rövid ismertető](docs/angular_help.md)
+
 #### Előfeltételek
 A gyakorlat elvégzéséhez nincs szükség telepítésre Windows-on, minden megtalálható az indításhoz a forrásban.
 
