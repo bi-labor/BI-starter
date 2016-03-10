@@ -17,7 +17,7 @@ JavaScript Single Page Application (SPA) keretrendszer, segítségével:
 * Kevesebb kódot kell írnunk 
 * Adatkötés: automatikus szinkronizáció model és view komponensek között
 
-Egyszerű AngularJS példa:
+Egyszerű [AngularJS példa](http://plnkr.co/edit/4jJrc09GRrUbFQpFgygR?p=preview):
 
 ![AngularJS példa](images/img8.png)
 
