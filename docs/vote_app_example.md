@@ -22,7 +22,7 @@
 A labor során egy egyszerű szavazó alkalmazást fogunk elkészíteni. Ennek alapjai már megtalálhatóak a kiinduló forrásban, ezt fogjuk kiegészíteni további funkciókkal. 
 
 #### AngularJS
-[AngularJS rövid ismertető](docs/angular_help.md)
+[AngularJS rövid ismertető](angular_help.md)
 
 #### Előfeltételek
 A gyakorlat elvégzéséhez nincs szükség telepítésre Windows-on, minden megtalálható az indításhoz a forrásban.
@@ -37,7 +37,7 @@ http-server -c-1
 
 Böngészőben: http://localhost:8080
 
-![Alkalmazás kezdeti állapota](docs/images/img1.png)
+![Alkalmazás kezdeti állapota](images/img1.png)
 
 #### Technológiák
 * [AngularJS](https://docs.angularjs.org/guide)
@@ -58,7 +58,7 @@ Az elkészült alkalmazásban a felhasználó tud:
 
 Az adatbázisban a következőképpen tároljuk az objektumokat:
 
-![Firebase adatabázis](docs/images/img2.png)
+![Firebase adatabázis](images/img2.png)
 
 A séma tehát a következőképpen néz ki: Az **angularvoteapp** gyökérnek 3 gyermeke van: 
 * questions
@@ -86,7 +86,7 @@ Ez teszi lehetővé, hogy egyszerűen le tudjuk kérdezni az adott kérdéshez t
 
 #### 1. Feladat - Kérdés létrehozása alap adatokkal (opciók nélkül)
 
-![Kérdés létrehozása alap adatokkal](docs/images/img3.png)
+![Kérdés létrehozása alap adatokkal](images/img3.png)
 
 Az oldalsó navigációs sávban már elérhető az új kérdés létrehozás opció, melynek hatására felugrik egy dialógus ablak de szinte üres. Ehhez először vegyük fel a szükséges mezőket.
 A dialógushoz tartozik egy kontroller fájl: `new.question.dialog.controller.js` 
@@ -168,7 +168,7 @@ vm.create = function (){
 
 #### 2. feladat - Opciók hozzáadása
 
-![Opciók hozzáadása](docs/images/img4.png)
+![Opciók hozzáadása](images/img4.png)
 
 Egy kérdéshez még tartoznak válaszlehetőségek is (**options**). Egy `Option` objektum felépítése megtekinthető az `OptionService`-ben (app/components/option/option.service.js):
 
@@ -298,7 +298,7 @@ Ezek után ha kipróbáljuk, el tudjuk menteni a felvett válaszlehetőségeket 
 
 #### 3. feladat - Kérdések megjelenítése a főoldalon
 
-![Kérdések megjelenítése a főoldalon](docs/images/img5.png)
+![Kérdések megjelenítése a főoldalon](images/img5.png)
 
 A kérdések megjelenítéséhez először is le kell kérnünk őket a `QuestionsController`-ben (app/components/question/questions.controller.js):
  
@@ -391,7 +391,7 @@ Az option-ket radio button-ként jelenítettük meg (`md-card-content` elemen be
 
 #### 4. feladat - Szavazás
 
-![Szavazás](docs/images/img6.png)
+![Szavazás](images/img6.png)
 
 A főoldalon már van egy listánk a feltett kérdésekről, a kérdéseken belül pedig már a válaszlehetőségeket is látjuk. A következő lépésben elkészítjük a szavazást is.
 
@@ -422,7 +422,7 @@ A listaelem nézeten (app/components/question/list/question.list.item.directive.
 
 #### 5. feladat - Statisztikák
 
-![Statisztikák](docs/images/img7.png)
+![Statisztikák](images/img7.png)
 
 A statisztikák nézeten már láthatóak az eredmények kördiagram formájában. A feladat, hogy oszlopdiagram formájában is jelenítsük meg a szavazás állását.
 
