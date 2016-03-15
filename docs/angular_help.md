@@ -1,4 +1,4 @@
-# AngularJS
+# AngularJS rövid ismertető
 
 ## Tartalom
 * [Mi az AngularJS?](#mi-az-angularjs)
