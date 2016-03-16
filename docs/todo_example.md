@@ -51,7 +51,7 @@ Ez utóbbi akkor veszi fel az új Todo-t, ha a felhasználó entert nyom és a b
 ```javascript
 $scope.todos = [];
   
-$scope.addTodo = function() {
+$scope.addTodo = function(event) {
   if(event.keyCode == 13 && $scope.todoText){
       $scope.todos.push({text:$scope.todoText, done:false});
       $scope.todoText = '';
@@ -62,7 +62,7 @@ $scope.addTodo = function() {
 Todo beviteli mező hozzáadása: 
 
 ```html
-<input id="new-todo" type="text" ng-model="todoText" size="30" placeholder="Új todo szövege" ng-keyup="addTodo()" />
+<input id="new-todo" type="text" ng-model="todoText" size="30" placeholder="Új todo szövege" ng-keyup="addTodo($event)" />
 ```
 
 ## Todo-k listázása
