@@ -9,7 +9,7 @@ Ezek után a HTML kód így fog kinézni:
 <!DOCTYPE html>
 <html>
   <head>
-    <script data-require="angular.js@1.5.0" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script data-require="angular.js@1.6.1" data-semver="1.6.1" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
   </head>
