@@ -334,7 +334,7 @@ var directive = {
 };
 ```
 
-> A definícióból látható, hogy a direkítvára elemenként tudunk hivatkozni (`restrict:’E’`), a hozzátartozó template pedig a mellette található `question.list.item.directive.html`. A direktíva izolált scope-al rendelkezik, egy question mezője van, amit a direktíva question attribútumában adhatunk meg (ezért írtuk a kérdések listában így:  `<question-list-item question="question" … `). 
+> A definícióból látható, hogy a direkítvára elemenként tudunk hivatkozni (`restrict:’E’`), a hozzátartozó template pedig a mellette található `question.list.item.directive.html`. A direktíva izolált scope-pal rendelkezik, egy question mezője van, amit a direktíva question attribútumában adhatunk meg (ezért írtuk a kérdések listában így:  `<question-list-item question="question" … `). 
 > Az átadott question objektumra `vm.question`-ként tudunk hivatkozni a direktíván belül. 
 > A direktíva kontrollere a `QuestionListItemController`, mely szintén ebben a JavaScript fájlban található. 
 

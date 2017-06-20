@@ -114,7 +114,7 @@ A controllerAs szintaxis segítségével az egymásba ágyazott scope-okat jobba
 </div>
 ```
 
-Míg sima scope-al így néz ki: 
+Míg sima scope-pal így néz ki: 
 
 ```html
 <div ng-controller="MainCtrl">
@@ -180,7 +180,7 @@ angular.module('docsSimpleDirective', [])
 * *"Separation of Concerns"* koncepció támogatására
 * JavaScript függvények, melyek egy speciális feladatot látnak el
 * Kontrollerek, filterek hívják meg általában, Dependency Injection mechanizmussal injektálhatóak.
-* Sok beépített service létezik, mint pl. `$http`, `$route`, `$window`, `$location` stb. Ezek neve $-al kezdődik.
+* Sok beépített service létezik, mint pl. `$http`, `$route`, `$window`, `$location` stb. Ezek neve $-ral kezdődik.
 
 Példa:
 
