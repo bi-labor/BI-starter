@@ -3,6 +3,8 @@
 
 ### Tartalom
 * [AngularJS rövid ismertető](/docs/angular_help.md)
-* [AngularJS példa - Todo alkalmazás](/docs/todo_example.md)
-* [AngularJS nagy feladat - Szavazó alkalmazás](/docs/vote_app_example.md)
-* [Visszajelzés](http://goo.gl/forms/RU00lo5ycc)
+* [Angular rövid ismertető](/docs/angular_101.md)
+
+
+* [AngularJS feladat - Szavazó alkalmazás](/docs/vote_app_example.md)
+* [Angular példa - Todo alkalmazás](/docs/todo_example.md)
