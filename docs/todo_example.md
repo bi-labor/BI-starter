@@ -169,4 +169,4 @@ Ezzel a Todo alkalmazásunk el is készült.
 
 A kész alkalmazás:
 
-![Kész alkalmazás](https://www.dropbox.com/s/6dtjpe4hs59oslh/Screenshot%202018-02-12%2011.25.52.png?dl=0)
+![Kész alkalmazás](https://photos-4.dropbox.com/t/2/AACPX7XzwoLX-XRVbObA1w1FxYgodGGUB7iDdfw6VW9epw/12/51973751/png/32x32/3/1518559200/0/2/Screenshot%202018-02-12%2011.25.52.png/EKeLhCgY95ICIAcoBw/4-gf3Gwmp8o7jI0EvHTMkg7RWM_V796wPx-oMEibq2Y?dl=0&preserve_transparency=1&size=1600x1200&size_mode=3 "Kész alkalmazás")
