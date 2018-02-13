@@ -95,7 +95,7 @@ Az "app" prefixet az Angular CLI teszi a komponensek nevei elé, annak érdekéb
 
 Az alkalmazás a jelnlegi állapotában:
 
-![Todo lista](https://www.dropbox.com/s/zy6qhcdzxz0nf61/Screenshot%202018-02-12%2010.31.43.png?dl=0)
+![Todo lista](https://photos-3.dropbox.com/t/2/AACnqoEqryWBiz-AgtYPkBVOaHK1jocAJgvLi8gtfdZEnw/12/51973751/png/32x32/3/1518562800/0/2/Screenshot%202018-02-12%2010.31.43.png/EKeLhCgY95ICIAcoBw/599CIjTAjSqpJBLI4BCDtlbsHl88xQhvEhb-MWkO7Ls?dl=0&preserve_transparency=1&size=1600x1200&size_mode=3 "Todo lista")
 
 ### Egy- illetve kétirányú adatkötés
 
@@ -144,9 +144,9 @@ Fontos megjegyezni, hogy az ngModel direktívát nem használhatjuk a saját kom
 
 ### Új todo felvétele
 
-Az új todo felvételét nem fogjuk külön komponensbe kiszervezni, mint a todok listázását, hanem az "AppComponentet" fogjuk kiegészíteni (tehetnénk ezt is külön komponensbe, de nyilván egy ilyen kis alkalmazás esetén nincs jelentősége annak, hogy több komponensbe szervezzük-e az alkalmazásunkat vagy sem).
+Az új todo felvételét nem fogjuk külön komponensbe kiszervezni, mint a todok listázását, hanem a "TodoComponentet" fogjuk kiegészíteni (tehetnénk ezt is külön komponensbe, de nyilván egy ilyen kis alkalmazás esetén nincs jelentősége annak, hogy több komponensbe szervezzük-e az alkalmazásunkat vagy sem).
 
-Először a todo felvételét elvégző függvényt írjuk meg, az "AppComponent" TypeScript osztályt egészítsük ki:
+Először a todo felvételét elvégző függvényt írjuk meg, az "TodoComponent" TypeScript osztályt egészítsük ki:
 ```typescript
 addTodo(name: string) {
   this.todos.push(new Todo(name));
