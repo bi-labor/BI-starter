@@ -416,9 +416,11 @@ A listaelem nézeten (app/components/question/list/question.list.item.directive.
 
 * Ugyanitt rakjunk ki egy gombot, amelyre kattintva a felhasználó szavazni fog
   * Ehhez kell egy függvény a kontrollerben, amit rárakunk a `scope`-ra
-  * A szavazás mentését pedig a `VoteService`-ben is implementáljuk (app/components/vote/vote.service.js) → Ehhez egy új `Vote` objektumot kell eltárolni a votes-ban a kérdés azonosítójához rendelve
+  * A szavazás mentését pedig a `VoteService`-ben is implementáljuk (app/components/vote/vote.service.js) → Ehhez egy új `Vote` objektumot kell eltárolni a votes-ban a kérdés azonosítójához rendelve. Hint: Kérdés id  elkérése:  `question.$id`
   * Ez a gomb csak  akkor jelenjen meg, ha kiválasztottunk egy `option`-t (használjuk az `ng-if` beépített AngularJS direktívát) 
 * A szavazás után a felhasználónak jelenjen meg egy értesítés, hogy sikeresen szavazott a kérdésre (Ehhez használjuk a `NoficationService` `showNotification` függvényét, melyet itt találunk: app/components/notification/notification.service.js)
+
+
 
 #### 5. feladat - Statisztikák
 
@@ -430,9 +432,10 @@ Ehhez a `highchartsColumn` nevű direktívát kell kiegészíteni (app/component
 
 > Az oszlopdiagramra példa itt található: http://www.highcharts.com/demo/column-rotated-labels
 
-A direktíva megkapja paraméterben a kirajzolandó adatokat (`vm.columnChartData`-ként tudunk rá hivatkozni), `categories` és `data` mezőit kell átadni a diagramrajzoló libnek.
+A direktíva megkapja paraméterben a kirajzolandó adatokat (`vm.columnChartData`-ként tudunk rá hivatkozni), `categories` és `data` mezőit kell átadni a diagramrajzoló libnek. 
 
-### Visszajelzés
-A visszajelzés fontos számunka. Segíted vele a munkánkat és többi hallgató életét: http://goo.gl/forms/RU00lo5ycc
-
-
+A render függvényben:
+```javascript
+chart.xAxis[0].setCategories(vm.columnChartData.categories, true, true);
+chart.series[0].setData(vm.columnChartData.data);
+```
